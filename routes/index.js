@@ -5,4 +5,10 @@ router.get("/", (req, res, next) => {
   res.render("index");
 });
 
+
+router.get("/manish", (req, res, next) => {
+  res.render("manishView.hbs");
+});
+
+
 module.exports = router;
