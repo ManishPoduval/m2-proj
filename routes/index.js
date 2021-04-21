@@ -5,4 +5,9 @@ router.get("/", (req, res, next) => {
   res.render("index");
 });
 
+router.get('/luis', (req, res) => {
+  res.render('luisView')
+})
+
+
 module.exports = router;
