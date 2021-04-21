@@ -11,4 +11,8 @@ router.get("/manish", (req, res, next) => {
 });
 
 
+router.get("/jorge", (req, res, next) => {
+  res.render("jorge-view.hbs");
+});
+
 module.exports = router;
