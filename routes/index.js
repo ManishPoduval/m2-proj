@@ -15,4 +15,9 @@ router.get("/jorge", (req, res, next) => {
   res.render("jorge-view.hbs");
 });
 
+router.get('/luis', (req, res) => {
+  res.render('luisView')
+})
+
+
 module.exports = router;
